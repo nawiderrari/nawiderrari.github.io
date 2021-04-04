@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -67,7 +68,13 @@
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="post" action="https://formspree.io/f/xrgrgelz">
+								<p><b>Mustafa Hosseini</b><br><br>
+								2880 Sanderling Drive<br>
+								Fremont, CA 94555<br><br>
+								<a href="tel:+15102988585"><b>Telephone:</b> (510)298-8585</a><br><br>
+								<b>Email:</b> <a href="mailto:mustafahosseini@system-rail.com">mustafahosseini@system-rail.com</a> or use the form below.
+								</p>
+								<form action="?" method="post" action="https://formspree.io/f/xrgrgelz">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
@@ -80,7 +87,8 @@
 										<div class="field">
 											<label for="message">Message</label>
 											<textarea name="message" id="message" rows="4"></textarea>
-										</div>
+										</div>     
+										 <div class="g-recaptcha" data-sitekey="your_site_key"></div>
 									</div>
 									<ul class="actions">
 										<li><input type="submit" value="Send Message" class="primary" /></li>
